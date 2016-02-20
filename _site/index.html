@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Home -  Jarves - next gen CMS.</title>
+<meta name="language" content="en" >
+<meta http-equiv="content-type" content="text/html; charset=utf-8" >
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" >
+<meta content='width=device-width' name='viewport'>
+<meta name="viewport" content="initial-scale=1.0" >
+
+<!-- Stylesheets -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:300,400' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="/swipebox/css/swipebox.min.css" >
+<script type="text/javascript" src="/js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="/js/owl.carousel.min.js"></script>
+<link href="/video-js/video-js.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="/css/layout.css" >
+<script type="text/javascript" src="/swipebox/js/jquery.swipebox.min.js"></script>
+<script type="text/javascript" >
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-53613249-1', 'auto');
+    ga('send', 'pageview');
+    $(document).ready(function(){
+        var owl = $(".owl-carousel-black");
+        var owlWhite = $(".owl-carousel-white");
+
+        owl.owlCarousel({
+            loop: true,
+            nav: true
+        });
+        owlWhite.owlCarousel({
+            loop: true,
+            nav: true
+        });
+
+        $(".swipebox").swipebox();
+    });
+</script>
+<script src="/video-js/video.js"></script>
+<script>
+    videojs.options.flash.swf = "/video-js/video-js.swf";
+</script>
+
+</head>
+<body class="home">
+
+<header>
+    <div class="wrapper">
+        <a href="/" class="logo"><img src="/images/jarves-logo.png"/></a>
+        <nav>
+            <ul class="topmenu">
+    
+    
+    
+    
+    
+    <li class="element first current ">
+        <a class="current" href="#not-ready">Home</a>
+    </li>
+    
+    
+    
+    <li class="element   ">
+        <a class="" href="#not-ready">Documentation</a>
+    </li>
+    
+    
+    
+    <li class="element   ">
+        <a class="" href="#not-ready">Support</a>
+    </li>
+    
+    
+    
+    <li class="element   ">
+        <a class="" href="#not-ready">Download</a>
+    </li>
+    
+    
+    
+    <li class="element   last">
+        <a class="" href="#not-ready">Contribute</a>
+    </li>
+    
+</ul>
+
+        </nav>
+        <div class="break"></div>
+    </div>
+</header>
+
+<div class="main-wrapper">
+
+<section class="content">
+    <div class="home-banner">
+    <div class="home-banner-bg-top"></div>
+    <div class="wrapper home-banner-logo">
+        <img class="home-banner-logo-bg" src="/images/home-logo-bg.png" />
+    </div>
+    <div class="home-banner-page home-banner-page-1">
+        <div class="wrapper">
+            <div class="home-screen">
+                <img src="images/home-banner-screen1.png" />
+                <video id="banner-screen-video" class="banner-screen-video video-js vjs-default-skin" controls preload="none" width="539" height="405"
+                       poster="/images/jarves-movie-poster.png"
+                       data-setup="{}">
+                    <source src="/video/jarves-ipad.mp4" type='video/mp4' />
+                    <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+                </video>
+            </div>
+            <div class="home-banner-text">
+                <h1>NEXT GEN <strong>CMS</strong></h1>
+                <p>
+                    Jarves is a next generation CMS<br />
+                    based on AngularJS and Symfony
+                    using Ecmascript 6 and PHP 5.4+.
+                </p>
+                <br/>
+                <ul>
+                    <li>just a Symfony Bundle</li>
+                    <li>RAD framework</li>
+                    <li>extremely fast</li>
+                    <li>completely based on a REST API</li>
+                    <li>inline-editing as its best</li>
+                    <li>tablet optimized</li>
+                    <li>open source</li>
+                </ul>
+                <div class="home-banner-page-1-buttons">
+                    <a href="#features">Learn more</a>
+                    <a href="#not-ready">Download</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="home-features">
+    <div class="wrapper">
+
+        <a id="features"></a>
+        <h1>FEATURES AT A GLANCE</h1>
+
+        <div class="home-features-container">
+        <div class="home-features-item">
+            <h3>Modern User Interface</h3>
+            Clear and modern interface with best in class user experience
+            in mind for you and your clients. Touch friendly compatibility
+            for desktops and tablets.
+        </div>
+        <div class="home-features-item">
+            <h3>Inline-Editing</h3>
+            Edit page contents live on your site with all styles and scripts
+            applied. No hassle having multiple tabs.
+        </div>
+        <div class="home-features-item">
+            <h3>Like Native App</h3>
+            Due to its AJAX technology and JSON REST-API
+            it loads only the data it really needs and responses
+            therefore pretty much instant on clicks at the user interface.
+        </div>
+
+
+
+        <div class="home-features-item">
+            <h3>Drag’n’Drop</h3>
+            Drag and drop content and files directly from desktop into Jarves.
+            Familiar and essential productivity boost.
+        </div>
+        <div class="home-features-item">
+            <h3>Users & Permissions</h3>
+            Very detailed permission control offering comprehensive rules for any
+            user or group accessing any object or REST point.
+        </div>
+        <div class="home-features-item">
+            <h3>Dashboard</h3>
+            Vital dashboard delivers a quick overview over most important website data.
+        </div>
+
+
+
+        <div class="home-features-item">
+            <h3>File Management</h3>
+            Integrated file, pages and media management offers rich feature set including
+            renaming, cropping, resizing and rotating content. All one click away.
+        </div>
+        <div class="home-features-item">
+            <h3>File Abstraction Layer</h3>
+            Support for external file systems like Dropbox, AWS S3 and more to come.
+            Bundle extensibility allows implementing any further CDN or file provider.
+        </div>
+        <div class="home-features-item">
+            <h3>Pages and Blogs</h3>
+            Organizing nested pages with navigations and blogs in place. Supporting custom
+            URLs, timed content publishing and rich editing features like markdown.
+        </div>
+
+
+
+        <div class="home-features-item">
+            <h3>Multi-Language</h3>
+            Internationalization out of the box. Translate directly in the admin area or
+            external po-Editor like poedit.net.
+        </div>
+        <div class="home-features-item">
+            <h3>Extending</h3>
+            YFlexible object types - no need to misuse and hack on existing fields.
+            Add new fields with integrated bundle editor. Almost everything is extendible:
+            from dashboard widgets, field/content types and REST entry points to plugins and more.
+
+        </div>
+        <div class="home-features-item">
+            <h3>Symfony Bundles</h3>
+            Jarves is completely based on Symfony as a Bundle and is extend with further bundles.
+            Creating new fields, customized objects or new managing causes Jarves to automatically
+            create a redistributable Symfony Bundle which can be directly commited into VCS.
+
+        </div>
+
+
+
+        <div class="home-features-item">
+            <h3>Template Engines</h3>
+            Jarves supports multiple template engines. Twig is preinstalled and used in our system templates.
+            Install own template solutions even down to good old plain PHP files.
+
+        </div>
+        <div class="home-features-item">
+            <h3>MySQL, PostgreSQL and SQLite</h3>
+            Jarves is completely based on a high-speed ORM supporting common RDBMS.
+            With its auto-schema migration capabilities there's no hassle to keep your database
+            schema up to date with bare hands.
+        </div>
+
+
+        <div class="home-features-item">
+            <h3>Front End High-Speed</h3>
+            Integrated cache support for APC, Memcache, Redis etc provides a high-speed
+            rendering engine for almost any front end content.
+        </div>
+
+
+
+        <div class="home-features-item">
+            <h3>Distributed Authentication and Sessions</h3>
+            Integrate LDAP, SSH, PAM or other authentication systems and let
+            Memcache or other distributed storages handle the sessions.
+        </div>
+        <div class="home-features-item">
+            <h3>High-Scalability</h3>
+            With support for distributed caching and master/slave database connections
+            Jarves offers high scalability out of the box.
+        </div>
+        <div class="home-features-item">
+            <h3>REST-API</h3>
+            Integrate Jarves into existing applications using our full featured JSON REST-API.
+            The REST Interface allows to modify and query all information in the system through
+            a normalized and secure interface.
+        </div>
+        <div class="home-features-item">
+            <h3>Asset compiler/minifier</h3>
+            Integrated scss/less support and js/css minifier stops suffering from external building routines.
+            Jarves manages all that stuff automatically.
+        </div>
+        <div class="home-features-item">
+            <h3>Versioning</h3>
+            No more trouble with editing mistakes. All content is versioned and offers full editing
+            history - one click away.
+        </div>
+        <div class="home-features-item">
+            <h3>And More Features</h3>
+            There's more features and details coming. Follow us to stay updated.
+        </div>
+
+
+
+        </div>
+
+        <div class="break"></div>
+    </div>
+</div>
+<div class="home-more">
+    <div class="wrapper wrapper1">
+        <img class="home-more-logo-bg" src="/images/home-more-logo-bg.png" />
+        <h1>Jarves - The Application Framework</h1>
+        <p class="sub">Rapid Application Development through our integrated framework</p>
+        <div class="home-more-left">
+            <p>
+                The classical administration interface consists always of the same pattern. A listing view,
+                edit and add view as well as some way of deleting data.
+            </p>
+            <p>
+                We provide you common classes, both for front end (for AnguarJS, es6 classes and useful directives) and backend (for REST and your website, PHP classes), to create those views in
+                a snap. Not only that, we’re also providing you ways to define quick and easy ORM models, relations and constraints.
+                Fighting with PHP, defining huge arrays with endless nesting and unknown index keys
+                for configuration purposes is the past. If you don’t want to write PHP classes or XML configuration
+                with your bare hands, no problem. We’re providing a very cool bundle editor for all those kinds
+                of things: orm objects, rest entry points, CRUD views, frontend routes, translations,
+                composer and much more!
+            </p>
+            <p>
+                You’re immediately after the installation efficient and more productive with building
+                administration interfaces than ever before. This gives you more time to build the
+                interesting and beautiful things.
+            </p>
+        </div>
+        <div class="home-more-architecture">
+            <div class="a-box line-bottom a-db1">MySQL</div>
+            <div class="a-box a-db2 line-bottom">PostgreSQL</div>
+            <div class="a-box line-bottom a-db3">SQLite</div>
+            <div class="a-box a-orm line-bottom">ORM</div>
+            <div class="a-box a-symfony line-bottom">Symfony</div>
+            <div class="a-box a-rest line-bottom">REST-API</div>
+            <div class="a-box a-admin">AngularJS</div>
+        </div>
+        <div class="home-more-right">
+            <p>Building websites these days means building REST-APIs, using ORMs, having a modern,
+            fully responsive and tablet optimized interface for your clients. Jarves provides all those things and much more.
+            Everything is available through our JSON REST-API, even front end data, at wish pre-rendered, for
+            your single page website. You can use whatever ORM you’d like to use - pre installed is Propel ORM
+            due its high speed capabilities.</p>
+
+            <p>Having Jarves means having freedom over your website. We do not force you to use a
+            specific template engine, a front end library or a particular doctype - use whatever you like.
+            Twig, Smarty, plain PHP or other. We do not inject somewhere HTML snippets behind your back.
+            You can start with a completely blank page if you wish or use our several demo themes to get
+            fast a first website working.</p>
+
+            <p>You want to customize the core? Do it the Symfony way. Extending Jarves means extending Symfony. We're
+                using regular Symfony Bundles to extend the system - even Jarves itself is just a bundle. This means you don't
+                have to learn a new unproven architecture and you are able to overwrite all templates and controllers
+                as you are used to with Symfony.</p>
+        </div>
+        <div class="break"></div>
+    </div>
+
+    <div class="owl-carousel owl-carousel-white">
+        
+        <div><a class="swipebox" rel="gallery-1" href="/screens-white/1.png"><img src="/screens-white/1.png" /></a></div>
+        
+        <div><a class="swipebox" rel="gallery-1" href="/screens-white/2.png"><img src="/screens-white/2.png" /></a></div>
+        
+        <div><a class="swipebox" rel="gallery-1" href="/screens-white/3.png"><img src="/screens-white/3.png" /></a></div>
+        
+        <div><a class="swipebox" rel="gallery-1" href="/screens-white/4.png"><img src="/screens-white/4.png" /></a></div>
+        
+        <div><a class="swipebox" rel="gallery-1" href="/screens-white/5.png"><img src="/screens-white/5.png" /></a></div>
+        
+        <div><a class="swipebox" rel="gallery-1" href="/screens-white/6.png"><img src="/screens-white/6.png" /></a></div>
+        
+        <div><a class="swipebox" rel="gallery-1" href="/screens-white/7.png"><img src="/screens-white/7.png" /></a></div>
+        
+        <div><a class="swipebox" rel="gallery-1" href="/screens-white/8.png"><img src="/screens-white/8.png" /></a></div>
+        
+    </div>
+
+    <div class="owl-carousel owl-carousel-black">
+        
+        <div><a class="swipebox" rel="gallery-1" href="/screens/0.png"><img src="/screens/0.png" /></a></div>
+        
+        <div><a class="swipebox" rel="gallery-1" href="/screens/1.png"><img src="/screens/1.png" /></a></div>
+        
+        <div><a class="swipebox" rel="gallery-1" href="/screens/2.png"><img src="/screens/2.png" /></a></div>
+        
+        <div><a class="swipebox" rel="gallery-1" href="/screens/3.png"><img src="/screens/3.png" /></a></div>
+        
+        <div><a class="swipebox" rel="gallery-1" href="/screens/4.png"><img src="/screens/4.png" /></a></div>
+        
+        <div><a class="swipebox" rel="gallery-1" href="/screens/5.png"><img src="/screens/5.png" /></a></div>
+        
+        <div><a class="swipebox" rel="gallery-1" href="/screens/6.png"><img src="/screens/6.png" /></a></div>
+        
+        <div><a class="swipebox" rel="gallery-1" href="/screens/7.png"><img src="/screens/7.png" /></a></div>
+        
+        <div><a class="swipebox" rel="gallery-1" href="/screens/8.png"><img src="/screens/8.png" /></a></div>
+        
+        <div><a class="swipebox" rel="gallery-1" href="/screens/9.png"><img src="/screens/9.png" /></a></div>
+        
+        <div><a class="swipebox" rel="gallery-1" href="/screens/10.png"><img src="/screens/10.png" /></a></div>
+        
+        <div><a class="swipebox" rel="gallery-1" href="/screens/11.png"><img src="/screens/11.png" /></a></div>
+        
+        <div><a class="swipebox" rel="gallery-1" href="/screens/12.png"><img src="/screens/12.png" /></a></div>
+        
+        <div><a class="swipebox" rel="gallery-1" href="/screens/13.png"><img src="/screens/13.png" /></a></div>
+        
+        <div><a class="swipebox" rel="gallery-1" href="/screens/14.png"><img src="/screens/14.png" /></a></div>
+        
+        <div><a class="swipebox" rel="gallery-1" href="/screens/15.png"><img src="/screens/15.png" /></a></div>
+        
+        <div><a class="swipebox" rel="gallery-1" href="/screens/16.png"><img src="/screens/16.png" /></a></div>
+        
+        <div><a class="swipebox" rel="gallery-1" href="/screens/17.png"><img src="/screens/17.png" /></a></div>
+        
+    </div>
+
+    <div class="wrapper wrapper2">
+        <div class="home-more-register">
+            <a id="not-ready"></a>
+            <h1>Jarves is not released, yet.</h1>
+            <p class="sub">We are working hard to get a first version done. If you want to be informed when<br/>
+                it's ready then drop your email, like our <a href="https://www.facebook.com/Jarves.io">Facebook page</a> or <a href="https://twitter.com/MarcJSchmidt">follow me on twitter</a>.</p>
+            <form method="post" action="/register.php">
+                <input type="text" name="email" class="text" />
+                <input type="submit" class="submit" value="Send" />
+            </form>
+        </div>
+    </div>
+</div>
+</section>
+<footer>
+    <div class="links">
+        <div class="wrapper">
+            <a href="#">About us</a>
+            |
+            <a href="#">Contact Us</a>
+            |
+            <a href="#">Press</a>
+            |
+            <a href="#" class="last">Impress</a>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="copyright">
+
+            <div class="logo">
+                <img src="/images/jarves-logo.png" />
+            </div>
+            Copyright by jarves.io - Brought to you by
+            <a href="https://twitter.com/MarcJSchmidt">Marc J. Schmidt</a>
+        </div>
+    </div>
+</footer>
+</div> <!-- wrapper -->
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+pygments:  true
+permalink: /blog/:year/:month/:day/:title.html
+markdown:  redcarpet
+exclude:   [ README.md, Gemfile ]
+sass:
+  sass_dir: css
+redcarpet:
+    extensions: ["tables", "no_intra_emphasis"]
+navigation:
+ - title: Home
+   url: /
+ - title: Documentation
+   url: /documentation/
+ - title: Support
+   url: /support.html
+ - title: Download
+   url: /download.html
+ - title: Contribute
+   url: /contribute.html
+documentation:
+ - title: What's new in Propel 2.0
+   url: /documentation/whats-new.html
