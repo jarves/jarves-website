@@ -1,11 +1,16 @@
 <ul class="topmenu">
     {% for link in site.navigation %}
     {% assign current = nil %}
-    {% if page.url contains link.url %}
-    {% assign current = 'current' %}
+    {% if page.url != '/' and link.url contains page.url %}
+        {% assign current = 'current' %}
+    {% endif %}
+    {% if link.url == '/' %}
+        {% if page.url == '/' %}
+            {% assign current = 'current' %}
+        {% endif %}
     {% endif %}
     <li class="element {% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}">
-        <a class="{{ current }}" href="#not-ready">{{ link.title }}</a>
+        <a class="{{ current }}" href="{{ link.url }}">{{ link.title }}</a>
     </li>
     {% endfor %}
 </ul>

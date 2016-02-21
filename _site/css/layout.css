@@ -10,13 +10,11 @@
 @-webkit-keyframes scaleFadeIn {
   from {
     -webkit-transform: scale(0); }
-
   to {
     -webkit-transform: scale(1); } }
 @-moz-keyframes scaleFadeIn {
   from {
     -moz-transform: scale(0); }
-
   to {
     -moz-transform: scale(1); } }
 @keyframes scaleFadeIn {
@@ -26,7 +24,6 @@
     -ms-transform: scale(0);
     -o-transform: scale(0);
     transform: scale(0); }
-
   to {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -36,26 +33,22 @@
 @-webkit-keyframes topFadeIn {
   from {
     top: -20px; }
-
   to {
     top: 0px; } }
 @-moz-keyframes topFadeIn {
   from {
     top: -20px; }
-
   to {
     top: 0px; } }
 @keyframes topFadeIn {
   from {
     top: -20px; }
-
   to {
     top: 0px; } }
 @-webkit-keyframes leftFadeIn {
   from {
     opacity: 0.5;
     right: 120px; }
-
   to {
     opacity: 1;
     right: 0; } }
@@ -63,7 +56,6 @@
   from {
     opacity: 0.5;
     right: 120px; }
-
   to {
     opacity: 1;
     right: 0; } }
@@ -71,79 +63,63 @@
   from {
     opacity: 0.5;
     right: 120px; }
-
   to {
     opacity: 1;
     right: 0; } }
 @-webkit-keyframes bgSail {
   0% {
     left: -400px; }
-
   80% {
     left: -450px; }
-
   100% {
     left: -400px; } }
 @-moz-keyframes bgSail {
   0% {
     left: -400px; }
-
   80% {
     left: -450px; }
-
   100% {
     left: -400px; } }
 @keyframes bgSail {
   0% {
     left: -400px; }
-
   80% {
     left: -450px; }
-
   100% {
     left: -400px; } }
 @-webkit-keyframes banner-top {
   0% {
     right: 0px; }
-
   40% {
     right: -950px;
     left: 0; }
-
   80% {
     right: 0;
     left: -550px; }
-
   100% {
     right: 0px;
     left: 0; } }
 @-moz-keyframes banner-top {
   0% {
     right: 0px; }
-
   40% {
     right: -950px;
     left: 0; }
-
   80% {
     right: 0;
     left: -550px; }
-
   100% {
     right: 0px;
     left: 0; } }
 @keyframes banner-top {
   0% {
     right: 0px; }
-
   40% {
     right: -950px;
     left: 0; }
-
   80% {
     right: 0;
     left: -550px; }
-
   100% {
     right: 0px;
     left: 0; } }
@@ -312,14 +288,13 @@ nav a.current:hover {
 
 footer a:hover,
 nav a:hover {
-  color: gray;
-  cursor: no-drop; }
+  color: gray; }
 
 /*
  * Basics
  */
 a, a:link {
-  color: #26a1be;
+  color: #26a2be;
   text-decoration: none; }
 
 a:hover {
@@ -654,6 +629,12 @@ img.home-banner-logo-bg {
 
 .home-more-register input.submit:hover {
   background-color: #165d6d; }
+
+.default-content .wrapper {
+  padding-top: 130px;
+  text-align: left; }
+  .default-content .wrapper h1, .default-content .wrapper h2, .default-content .wrapper h3 {
+    color: #111; }
 
 .owl-controls {
   text-align: center; }

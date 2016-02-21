@@ -133,7 +133,6 @@ nav a.current:hover {
 footer a:hover,
 nav a:hover {
   color: gray;
-  cursor: no-drop;
 }
 
 /*
@@ -371,7 +370,6 @@ img.home-banner-logo-bg {
   font-weight: 400;
   font-size: 1.5rem;
 }
-
 .home-more h1 {
   font-size: 3rem;
   line-height: 3.5rem;
@@ -508,6 +506,15 @@ img.home-banner-logo-bg {
   background-color: lighten($mainColor, 21%);
 }
 
+
+.default-content .wrapper {
+  padding-top: 130px;
+  text-align: left;
+
+  h1, h2, h3 {
+    color: #111;
+  }
+}
 
 .owl-controls {
   text-align: center;
