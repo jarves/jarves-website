@@ -7,7 +7,7 @@ navigation:
  - title: Home
    url: /
  - title: Documentation
-   url: /documentation/
+   url: /documentation.html
  - title: Download
    url: /download.html
  - title: Contribute
